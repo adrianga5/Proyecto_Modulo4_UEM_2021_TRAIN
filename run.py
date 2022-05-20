@@ -15,6 +15,17 @@ app = Flask(__name__)
 port = int(os.getenv('PORT', 8000))
 
 
+@app.route('/health', methods=['GET'])
+def health():
+    """
+        Función comprobar el estado de la aplicación.
+
+        Returns: OK
+
+    """
+    return 'OK'
+
+
 # usando el decorador @app.route para gestionar los enrutadores (Método GET)
 # ruta ráiz "/"
 @app.route('/', methods=['GET'])

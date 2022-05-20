@@ -2,39 +2,39 @@
   "services": {
     "cloudantNoSQLDB": [
       {
-        "name": "my_doc_db",
+        "name": "uem",
         "label": "cloudantNoSQLDB",
         "plan": "Shared",
         "credentials": {
-          "apikey": "X6uAPS1BNTWmZK2KOK2KO4t1LajdpK2KOFWxbPQtmFlDu853YIIb",
-          "host": "15b73b38-eb4f-4b55-892-5a56830632306a4-bluemix.cloudantnosqldb.appdomain.cloud",
-          "iam_apikey_description": "Auto-generated for key 8719e45b-0c3e-4aa2-b4a6-66a601d33bea",
-          "iam_apikey_name": "cred1",
-          "iam_role_crn": "crn:v1:bluemix:public:iam:::::::serviceRole:Manager",
-          "iam_serviceid_crn": "crn:v1:bluemix:public:iam-identity::a/52fdc7c41f83421688c7c41f8342af9df7e6d32a87::serviceid:ServiceId-e9057e6d-ace6-4f95-aebb-47cff29efa8a",
-          "url": "https://15b73b38-eb4f-4b55-873bb92-5a56832306a4-bluemix.cloudantnosqldb.appdomain.cloud",
-          "port": 443,
-          "username": "15b73b38-eb4f-4b55-8b92-5ab73b56832306a4-bluemix"
+          "apikey": "28zM7ymoTrbP3mM9YhhZMoHq4Le2vREWa_5tojv_t3Fe",
+          "host": "7112c307-1dc7-469f-8b35-5b982ae905ec-bluemix.cloudantnosqldb.appdomain.cloud",
+          "iam_apikey_description": "Auto-generated for key crn:v1:bluemix:public:cloudantnosqldb:eu-gb:a/0f3933a9b99843c992dedb0cfa547748:c0397e1f-c916-496f-b05c-41c404b94379:resource-key:4a7d6dc0-9892-4e3a-8e50-76e3cfb59378",
+          "iam_apikey_name": "Credenciales de servicio-1",
+          "iam_role_crn": "crn:v1:bluemix:public:iam::::serviceRole:Manager",
+          "iam_serviceid_crn": "crn:v1:bluemix:public:iam-identity::a/0f3933a9b99843c992dedb0cfa547748::serviceid:ServiceId-07812ad2-900e-48d6-8fc8-0d913e3a213d",
+          "url": "https://7112c307-1dc7-469f-8b35-5b982ae905ec-bluemix.cloudantnosqldb.appdomain.cloud",
+          "username": "7112c307-1dc7-469f-8b35-5b982ae905ec-bluemix"
         }
       }
     ],
     "cloud-object-storage": [
         {
-            "credentials": {
-              "apikey": "hu-wd94tXqJhOBRIcTgt0CwCLhOBRIcsZhXgt0yeSYM5o5qFo9nPP",
-              "endpoints": "https://s3.ap.cloud-object-storage.appdomain.cloud",
-              "iam_apikey_description": "Auto-generated for key 4230e26c-01e0-40b7-9c0e85-22d3265b5d04",
-              "iam_apikey_name": "cred1",
+            "credentials":
+            {
+              "apikey": "XAlmaohIqwmwTe3R7IgQdmNWC2lXgLzsJhYW5YbJRlz8",
+              "endpoints": "https://control.cloud-object-storage.cloud.ibm.com/v2/endpoints",
+              "iam_apikey_description": "Auto-generated for key crn:v1:bluemix:public:cloud-object-storage:global:a/0f3933a9b99843c992dedb0cfa547748:974af439-d7b4-4a93-be70-90278584e8f0:resource-key:f993f881-fe6a-4264-a68f-8e4b7454b994",
+              "iam_apikey_name": "Credenciales de servicio-1",
               "iam_role_crn": "crn:v1:bluemix:public:iam::::serviceRole:Writer",
-              "iam_serviceid_crn": "crn:v1:bluemix:public:iam-identity::a/52fdc7c41f83421688af9df7e6d32a87::serviceid:ServiceId-48740920-8c8b-49e2-88ee-8fa3b0374092bcbf",
-              "resource_instance_id": "crn:v1:bluemix:public:cloud-object-storage:global:a/52fdc7c41f83421688af9df7e6d32a87:c2c14b4e-7f68-4a18-8d62-409229b8b1e45ad1::"
+              "iam_serviceid_crn": "crn:v1:bluemix:public:iam-identity::a/0f3933a9b99843c992dedb0cfa547748::serviceid:ServiceId-70ec5b2a-1af6-4965-b740-5cc7a857904e",
+              "resource_instance_id": "crn:v1:bluemix:public:cloud-object-storage:global:a/0f3933a9b99843c992dedb0cfa547748:974af439-d7b4-4a93-be70-90278584e8f0::"
             },
             "syslog_drain_url": null,
             "volume_mounts": [],
             "label": "cloud-object-storage",
             "provider": null,
             "plan": "Lite",
-            "name": "uem_cos",
+            "name": "uem",
             "tags": [
                 "Lite",
                 "storage",
