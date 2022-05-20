@@ -19,8 +19,7 @@
     ],
     "cloud-object-storage": [
         {
-            "credentials":
-            {
+            "credentials": {
               "apikey": "XAlmaohIqwmwTe3R7IgQdmNWC2lXgLzsJhYW5YbJRlz8",
               "endpoints": "https://control.cloud-object-storage.cloud.ibm.com/v2/endpoints",
               "iam_apikey_description": "Auto-generated for key crn:v1:bluemix:public:cloud-object-storage:global:a/0f3933a9b99843c992dedb0cfa547748:974af439-d7b4-4a93-be70-90278584e8f0:resource-key:f993f881-fe6a-4264-a68f-8e4b7454b994",

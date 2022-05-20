@@ -72,6 +72,7 @@ class IBMCOS:
                ibm_auth_endpoint (str): Auth Endpoint.
                endpoint_url (str): Endpoint URL.
         """
+
         self.connection = ibm_boto3.resource("s3",
                                              ibm_api_key_id=ibm_api_key_id,
                                              ibm_service_instance_id=ibm_service_instance_id,
@@ -98,6 +99,7 @@ class IBMCOS:
         pkl_key = name + "_" + str(int(timestamp)) + ".pkl"
 
         try:
+
             # guardado del objeto en COS
             self.connection.Object(bucket_name, pkl_key).put(
                 Body=pickle_byte_obj
